@@ -1,2 +1,10 @@
 ---
-# tasks file for openwrt-base
+# https://openwrt.org/docs/guide-user/services/nas/sftp.server
+- name: Install openssh-sftp-server
+  opkg:
+    name: openssh-sftp-server
+
+# dig for debugging DNS related problems
+- name: Install bind-dig
+  opkg:
+    name: bind-dig
