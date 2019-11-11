@@ -1,0 +1,11 @@
+---
+# https://github.com/gekmihesg/ansible-openwrt
+- name: Install ansible role openwrt recommended packages
+  block:
+  - name: Install coreutils-sha1sum
+    opkg:
+      name: coreutils-sha1sum
+
+  - name: Install coreutils-base64
+    opkg:
+      name: coreutils-base64

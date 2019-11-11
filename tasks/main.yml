@@ -1,4 +1,7 @@
 ---
+- name: Install ansible role openwrt recommended packages
+  include_tasks: openwrt-recommended.yml
+
 # https://openwrt.org/docs/guide-user/services/nas/sftp.server
 - name: Install openssh-sftp-server
   opkg:
