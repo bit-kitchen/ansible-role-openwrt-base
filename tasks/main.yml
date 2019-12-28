@@ -11,3 +11,8 @@
 - name: Install bind-dig
   opkg:
     name: bind-dig
+
+# realpath
+- name: Install coreutils-realpath
+  opkg:
+    name: coreutils-realpth
