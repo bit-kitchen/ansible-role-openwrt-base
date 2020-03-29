@@ -3,6 +3,15 @@ ansible-role-openwrt-base
 
 Install basic OpenWrt packages useful for routine operations.
 
+The packages installed are:
+
+* bind-dig
+* coreutils-base64
+* coreutils-realpath
+* coreutils-sha1sum
+* openssh-sftp-server
+* rsync
+
 Requirements
 ------------
 
