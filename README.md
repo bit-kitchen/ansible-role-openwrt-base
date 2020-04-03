@@ -1,6 +1,13 @@
 ansible-role-openwrt-base
 =========================
 
+[![Ansible Role: bit_kitchen.openwrt_base](https://img.shields.io/ansible/role/47590.svg)](https://galaxy.ansible.com/bit_kitchen/openwrt_base)
+[![Build Status: bit-kitchen/ansible-role-openwrt-base](https://travis-ci.org/bit-kitchen/ansible-role-openwrt-base.svg?branch=master)](https://travis-ci.org/bit-kitchen/ansible-role-openwrt-base)
+
+```sh
+ansible-galaxy install bit_kitchen.openwrt_base
+```
+
 Install basic OpenWrt packages useful for routine operations.
 
 The packages installed are:
