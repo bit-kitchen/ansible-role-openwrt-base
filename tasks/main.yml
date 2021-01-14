@@ -15,7 +15,7 @@
 # realpath
 - name: Install coreutils-realpath
   opkg:
-    name: coreutils-realpth
+    name: coreutils-realpath
 
 # rsync
 - name: Install rsync
